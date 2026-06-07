@@ -1,8 +1,7 @@
 .holder {
-    display: flex;           /* Enable Flexbox */
-    flex-direction: column;  /* Stack items vertically */
-    flex-wrap: wrap;         /* Allows items to wrap if container height is limited */
-    justify-content: flex-start; /* Align items at the top */
-    align-items: center;     /* Center items horizontally in the column */
-    gap: 10px;               /* Space between items */
+    display: flex;            /* Enable Flexbox */
+    flex-wrap: wrap;          /* Allow items to move to the next row if container width is exceeded */
+    justify-content: space-around; /* Evenly distribute items across the row */
+    align-items: center;      /* Vertically center items within the row */
+    gap: 10px;                /* Optional: spacing between items */
 }
