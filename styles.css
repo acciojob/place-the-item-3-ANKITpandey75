@@ -1,7 +1,6 @@
 .holder {
-    display: flex;            /* Enable Flexbox */
-    flex-wrap: wrap;          /* Allow items to move to the next row if container width is exceeded */
-    justify-content: space-around; /* Evenly distribute items across the row */
-    align-items: center;      /* Vertically center items within the row */
-    gap: 10px;                /* Optional: spacing between items */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
